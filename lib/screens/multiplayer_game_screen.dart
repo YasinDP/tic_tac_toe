@@ -98,6 +98,8 @@ class _MultiplayerGameScreenState extends State<MultiplayerGameScreen> {
             ? PlayerCell.playerX
             : PlayerCell.playerO;
       });
+    } else {
+      return;
     }
 
     if (_isWinner()) {

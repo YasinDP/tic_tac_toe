@@ -104,6 +104,8 @@ class _SinglePlayerGameScreenState extends State<SinglePlayerGameScreen> {
             ? PlayerCell.playerX
             : PlayerCell.playerO;
       });
+    } else {
+      return;
     }
 
     if (_isWinner()) {
