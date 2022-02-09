@@ -124,7 +124,7 @@ class _MultiplayerGameScreenState extends State<MultiplayerGameScreen> {
       _isMatch([0, 0], [1, 0], [2, 0]),
       _isMatch([0, 1], [1, 1], [2, 1]),
       _isMatch([0, 2], [1, 2], [2, 2]),
-      _isMatch([0, 0], [0, 1], [0, 1]),
+      _isMatch([0, 0], [0, 1], [0, 2]),
       _isMatch([1, 0], [1, 1], [1, 2]),
       _isMatch([2, 0], [2, 1], [2, 2]),
       _isMatch([2, 0], [1, 1], [0, 2]),
