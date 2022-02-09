@@ -337,6 +337,7 @@ class _SinglePlayerGameScreenState extends State<SinglePlayerGameScreen> {
         (_) => List.generate(rowCount, (_) => PlayerCell.empty),
       );
       _currentPlayer = CurrentPlayerSP.player;
+      aiIsPlaying = false;
     });
   }
 }
